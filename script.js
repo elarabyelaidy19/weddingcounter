@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Set the wedding date - example: June 30, 2023
-  const weddingDate = new Date('2025-05-25T12:00:00').getTime();
+ 
+  const weddingDate = new Date('2025-05-25T22:00:00').getTime();
   
   // Update the countdown every second
   const countdown = setInterval(() => {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // If the countdown is over
     if (distance < 0) {
       clearInterval(countdown);
-      document.getElementById('countdown').innerHTML = '<h2>بارك الله لنا وبارك عليان وجمع بيننا في خير!</h2>';
+      document.getElementById('countdown').innerHTML = '<h2>بارك الله لنا وبارك علينا وجمع بيننا في خير!</h2>';
     }
   }, 1000);
   
